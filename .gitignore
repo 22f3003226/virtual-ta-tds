@@ -1,0 +1,13 @@
+After removing them, your ignore block might look like:
+```gitignore
+# Python venv & caches
+venv/
+__pycache__/
+
+# Node modules
+node_modules/
+
+# Env secrets
+.env
+
+# (we ARE committing chunked_data.json and consolidated_data.json per college instructions)
